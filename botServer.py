@@ -52,8 +52,8 @@ def generate_response(user_query, scraped_data, tokenizer, model):
 
 # Main function to run the chatbot
 def main():
-    website_url = "https://manipaldigital.info/"
-    hf_token = "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" 
+    website_url = ""
+    hf_token = "" 
     print("Scraping website...")
     scraped_data = scrape_website(website_url)
     print("Scraping completed.")
